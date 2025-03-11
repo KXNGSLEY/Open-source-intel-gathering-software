@@ -5,6 +5,7 @@ import exifread
 import pytesseract
 import face_recognition
 import hashlib
+from PIL import Image
 from bs4 import BeautifulSoup
 
 def search_username(username):
